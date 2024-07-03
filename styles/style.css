@@ -1,0 +1,176 @@
+:root {
+    --cor-background: #FFF8E1;
+    --cor-principal: #4E342E;
+    --cor-secundaria: #8D6E63;
+    --cor-botoes: #795548;
+    --cor-hover: #6D4C41;
+    --cor-hover02: #FFECB3;
+    --cor-especifica: #D7CCC8;
+    --cor-click: #E0B978;
+
+    --fonte-titulo: "Itim", cursive;
+    --fonte-secundaria: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-principal);
+    font-family: var(--fonte-secundaria);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.principal {
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.8em;
+    margin-top: 1em;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__ancora {
+    background-color: var(--cor-botoes);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-especifica);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__ancora:hover {
+    background-color: var(--cor-hover);
+}
+
+.ancora__secundaria {
+    background-color: transparent;
+    border: solid 2px var(--cor-botoes);
+    color: var(--cor-principal);
+}
+
+.ancora__secundaria:hover {
+    background-color: var(--cor-hover02);
+}
+
+.container__aviso {
+    color: var(--cor-secundaria);
+    font-size: 0.8em;
+}
+
+.secundario {
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.imagem__secundaria {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-size: 3em;
+    font-family: var(--fonte-titulo);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cor-secundaria);
+}
+
+.container__descricao {
+    padding: 4em;
+}
+
+.ancora__terciaria {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.secao-formas__titulo {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+    color: var(--cor-principal);
+    margin-top: 3em;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 5em 0em;
+}
+
+.lista__item {
+    text-align: center;
+}
+
+.lista__item__texto {
+    margin: 1em 0em;
+    font-size: 1.5em;
+    color: var(--cor-secundaria);
+    font-weight: 500;
+}
+
+.rodape {
+    margin-top: 3em;
+    background-color: var(--cor-principal);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.rodape__logo {
+    margin-top: 2em;
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em 9em;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--cor-background);
+    font-size: 1em;
+}
+
+.rodape__link:hover {
+    color: var(--cor-hover02);
+}
+
+.rodape__link:active {
+    color: var(--cor-click);
+}
+
+.rodape__texto {
+    color: var(--cor-secundaria);
+    font-size: 0.9em;
+    margin: 1em 0em 1em;
+}
