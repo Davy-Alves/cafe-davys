@@ -174,3 +174,170 @@ body {
     font-size: 0.9em;
     margin: 1em 0em 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+        height: 36vh;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .secundario {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 18em;
+    }
+
+    .imagem__secundaria {
+        width: 40vw;
+    }
+
+    .descricao__titulo {
+        font-size: 2.2em;
+        font-family: var(--fonte-titulo);
+        font-weight: 100;
+    }
+
+    .descricao__texto {
+        font-size: 1.2rem;
+        margin-top: 1em;
+    }
+
+    .container__descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .ancora__terciaria {
+        display: inline;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        padding: 3% 2%;
+        margin-top: 1em;
+    }
+    .lista {
+        display: block;
+        margin: 0em;
+    }
+
+    .rodape__links {
+        display: block;
+    }
+
+    .secao-formas__titulo {
+        font-size: 2.2em;
+        font-weight: 100;
+        padding: 10%;
+        margin-top: 4em;
+    }
+
+    .lista__item__imagem {
+        width: 40vw;
+    }
+
+    .rodape__logo {
+        width: 10vh;
+    }
+
+    .container__titulo {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        width: 15vh;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .container {
+        display: block;
+        background-image: none;
+        height: 36vh;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .secundario {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4em;
+    }
+
+    .imagem__secundaria {
+        width: 50vw;
+    }
+
+    .descricao__titulo {
+        font-size: 1.4em;
+        font-family: var(--fonte-titulo);
+        font-weight: 100;
+    }
+
+    .descricao__texto {
+        font-size: 0.75rem;
+        margin-top: 0.7em;
+    }
+
+    .container__descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .ancora__terciaria {
+        display: inline;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        padding: 3% 2%;
+        margin-top: 1em;
+    }
+    .lista {
+        display: block;
+        margin: 0em;
+    }
+
+    .rodape__links {
+        display: block;
+    }
+
+    .secao-formas__titulo {
+        font-size: 1.4em;
+        font-weight: 100;
+        padding: 10%;
+        margin-top: 4em;
+    }
+
+    .lista__item__imagem {
+        width: 40vw;
+    }
+
+    .rodape__logo {
+        width: 10vh;
+    }
+
+    .container__titulo {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        width: 15vh;
+    }
+}
